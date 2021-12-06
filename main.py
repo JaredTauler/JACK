@@ -555,7 +555,7 @@ def WindowMain():
 			sg.Button("refresh", key="refresh")
 		],
 		[
-			sg.Text("0 rows", size=(10,0), key="LenEntry"), sg.Text("Start typing to search: "), sg.InputText(key="refine", enable_events=True)
+			sg.Text("0 rows", size=(10,0), key="LenEntry"), sg.Text("Start typing to search:  "), sg.InputText(key="refine", enable_events=True)
 		]
 	]
 
