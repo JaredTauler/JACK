@@ -610,7 +610,7 @@ def ModifyID(TrueID, Modify):
 			[
 				sg.Column([
 					[sg.Text("Quantity:", k="textquantity", size=(8, 0))],
-					[sg.Text("Maxi:", k="textmaxi", size=(8, 0))],
+					[sg.Text("Max:", k="textmaxi", size=(8, 0))],
 				]),
 				sg.Column([
 					[sg.InputText(k="quantity", size=(4, 0))],
